@@ -1,4 +1,2 @@
 # codeWarKata
-# codeWarKata
-# codeWarKata
-# codeWarKata
+
