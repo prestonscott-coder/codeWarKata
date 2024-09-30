@@ -17,4 +17,4 @@ const squareDigits = (num) => Number(num.toString().split('').map(i => i*i).join
 since split and join are prototypes for strings in arrays we needed to convert any numbers to a string while making sure that we have a number stil
 3. once we separated the number we wanted to return it so we used map to create a new array and passed in iterator to multiply itself with itself
 4. once we had each individual number squared in the string it was time to join it and it returned back to a number because of the Number infront of the ternary.
-
+*/
