@@ -15,4 +15,4 @@ const stray = (numbers) => numbers.find(num => numbers.indexOf(num) === numbers.
 // set an arrow function with a parameter of numbers that is to take in an array
 // Then I want to run through the array so I use .find() method on the array 
 // Each time I iterate through the array under the parameter of (num) I want to use the callback function  and run it on the array so that each parameter is tested to find how many times its found
-// if the parameter in the first index of the array matches the last index then you know that it cant be your single number 
+// if the parameter is found in multiple indexes then you know you need to return the other nubmer. 
