@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+
+    
+}
+
+header, nav, li {
+    border: solid black 1px;
+    
+    
+}
+
+section{
+    border: solid black 1px;
+}
