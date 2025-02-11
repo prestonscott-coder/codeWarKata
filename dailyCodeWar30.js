@@ -19,3 +19,19 @@ const goals = (...a) => a.reduce((acc, c) => acc + c, 0);
 // The most effiecnt way of finding the sum is to use the reduce method, but this is a method that works or array or strings, not function parameters
 // to convert the parameters to an array we use the spread operator ... and gave it the parameter of a. so inside of a you now have the ability to use reduce to iterate over the array for as many elements there are and provide its sum. 
 
+function fizzbuzz(num){
+    for(i = 1; i<= num; i++){
+        if(num%3===0 && num%5 ===0){
+            console.log('fizzBuzz')
+        }else if(num%3===0){
+            console.log('fizz')
+        }else if(num%5===0){
+            console.log('buzz')
+        }else{
+            console.log(i)
+        }
+    }
+}
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
