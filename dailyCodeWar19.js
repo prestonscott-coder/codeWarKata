@@ -13,3 +13,4 @@ const getAge =(inputString)=> Number(inputString[0])
 // we run a function in the variable to convert inputString to a number 
 // we dont want the full string to change just the first index as we know that is the number in string form we use the 0 index to connect 
 
+
